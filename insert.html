@@ -1,0 +1,13 @@
+<?php
+$mysqli = new mysqli ('localhost','root','','crud');
+if(isset($POST['save'])){
+  $Email = $POST['Email'];
+  $password = $POST['password'];
+
+  $mysqli->query("INSERT INTO Student (Email,password) VALUES('$Email','$password')")or
+      die($mysqli->error);
+
+
+
+}
+?>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<head>
+  <title>Art Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:dark">
+    <img src="7.jpg" width="80" height="80"alt="">
+    <a class="navbar-brand conn" href="#">Digital Painting</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="parent.location='index.html'">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#"onclick="parent.location='about.html'">About Us </a>
+            <a class="dropdown-item" href="#" onclick="parent.location='events.html'">Events</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Gallery</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" onclick="parent.location='Gallery.html'">Colourful </a>
+            <a class="dropdown-item" href="#" onclick="parent.location='collection.html'">Collection</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Market Place</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" onclick="parent.location='woodenArts.html'">Wooden Arts</a>
+            <a class="dropdown-item" href="#" onclick="parent.location='bags.html'">Bags</a>
+            <a class="dropdown-item" href="#" onclick="parent.location='Paintings.html'">Paintings</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="parent.location='contact.html'">Contact</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Sign IN
+      </button>
+      
+      &nbsp;&nbsp;&nbsp;<a href="#collapse1" class="login" data-toggle="collapse" data-placement="bottom"><img src="shop.png" width="40"></a><span class="badge badge-light">1</span>
+      <div class="modal fade formcol" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-center" id="exampleModalLabel">Sign In Here</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body formcol">
+              <div class="conatiner-fluid">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-sm-6 col-md-6">
+                     <form class="formconn formcol" action="insert.php" method="Post">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email"  class="form-control" name="email"  placeholder="Enter your Email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" name="password"  placeholder="password" required>
+                      </div>
+                      <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-block" name="submit"value="submit">Submit</button>
+                    </form>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="conatiner">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="c1.png" alt="" class="src">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="c2.png" alt="" class="src">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="c3.png" alt="" class="src">
+
+  </div>
+  <br><br>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class="text-center abt">Review Order</h3>
+      <p class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please review and submit your order.</p>
+
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class="text-center abt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payment Method</h3>
+      <br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="credit.jpg" alt="" class="" width="60">
+
+    </div>
+    <div class="col-sm-4">
+      <h4 class="c2">Credit card</h4>
+    </div>
+
+
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-lg-4">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="pain2.png" alt="" class="img-thumbnail" width="200">
+
+    </div>
+
+    <div class="cad card" style="width: 28rem;">
+
+      <div class="card-body">
+
+        <br>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <h2 class="c2">Subtotal</h2>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="c2">INR 40,000</h5>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <h4 class="c2">Vat</h4>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR&nbsp;0</h5>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <h4 class="c2">Total</h4>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR&nbsp;40,000</h5>
+
+          </div>
+
+        </div>
+        <br>
+        <p class="c3">Note:Shipping will be calculated manually and you will contacted by our team with further details.</p>
+
+
+
+
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+
+  <div class="conatiner">
+    <div class="row">
+      <div class="col-lg-1">
+      </div>
+      <div class="col-lg-4">
+        <div class="cad card" style="width: 28rem;">
+
+
+
+          <div class="card-body">
+            <div class="col-lg-14">
+
+              <br>
+
+              <div class="row">
+                <div class="col-lg-8">
+                  <h2 class="c2">Product</h2>
+                </div>
+                <div class="col-lg-4">
+                  <h3 class="c2">Total</h3>
+
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <h4 class="c2">Amlan Dutta</h4>
+                </div>
+                <div class="col-sm-6">
+                  <h5 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR&nbsp;40,000</h5>
+
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <h4 class="c2">Cart&nbsp;Subtotal</h4>
+                </div>
+                <div class="col-sm-6">
+                  <h5 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR&nbsp;40,000</h5>
+
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h4 class="c2">Order&nbsp;Total</h4>
+                </div>
+                <div class="col-sm-6">
+                  <h5 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR&nbsp;40,000</h5>
+
+                </div>
+
+              </div>
+              <p class="c2">*Delivery time will vary depending on country of origin and destination</p>
+              <button type="button" class="btn btn-success btn-block abt1" onclick="parent.location='order.html'">Place Order</button>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  <br><br><br>
+  <p class=" c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2019 Art Gallery Online, Inc. All rights reserved. Need help? Contact us at support<button type="button" class="btn btn-link" onclick="parent.location='index.html'">artpain000webhost.com</button></p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-link">Privacy policy</button><button type="button" class="btn btn-link">Copyright</button><button type="button" class="btn btn-link">Terms and Conditions</button>
+
+  <script>
+  function myfun()
+  {
+    window.open("Your Order has done Successful!");
+  }
+
+
+
+</script>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

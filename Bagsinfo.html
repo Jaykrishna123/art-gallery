@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+  <title>Art Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:dark">
+    <img src="7.jpg" width="80" height="80"alt="">
+    <a class="navbar-brand conn" href="#">Digital Painting</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="parent.location='index.html'">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#"onclick="parent.location='about.html'">About Us </a>
+            <a class="dropdown-item" href="#" onclick="parent.location='events.html'" >Events</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Gallery</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" onclick="parent.location='Gallery.html'">Colourful </a>
+            <a class="dropdown-item" href="#"onclick="parent.location='collection.html'">Collection</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Market Place</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" onclick="parent.location='woodenArts.html'">Wooden Arts</a>
+            <a class="dropdown-item" href="#"onclick="parent.location='bags.html'">Bags</a>
+            <a class="dropdown-item" href="#" onclick="parent.location='Paintings.html'">Paintings</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="parent.location='contact.html'">Contact</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Sign IN
+      </button>
+
+      &nbsp;&nbsp;&nbsp;<a href="#collapse1" class="login" data-toggle="collapse" data-placement="bottom"><img src="shop.png" width="40"></a><span class="badge badge-light"></span>
+      <div class="modal fade formcol" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-center" id="exampleModalLabel">Sign In Here</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body formcol">
+              <div class="conatiner-fluid">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-sm-6 col-md-6">
+                    <form class="formconn formcol" action="insert.php" method="Post">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email"  class="form-control" name="email"  placeholder="Enter your Email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" name="password"  placeholder="password" required>
+                      </div>
+                      <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-block" name="submit"value="submit">Submit</button>
+                    </form>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="cards" style="width:20rem">
+          <img src="bag1.jpg" alt="" class="card-img-down example" height="400" >
+          <div class="card-block">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h1 class="abt">Machemchem</h1>
+        <p class="abt">This wonderful ladies’ bag is a single piece which currently cannot be reproduced, because the gold and silver threads are no longer available in Bhutan. Together with the other colourful pattern on the brown base shade, they attract your attention and give the bag a fresh and lively appearance. It is a pleasure to carry this bag because of its softness and its comfortable straps. The bag has a small external pocket that can be closed by a zipper. In the spacious interior, which can also be opened by a zipper, another small side pocket is attached. This makes the bag very practical.
+        <br>Due to its size and the useful division, the bag is multifunctional. Its vibrancy and style makes it extraordinary.
+        <br><br>Weight: approx. 300 g
+        <br>Size: approx. 40 x 30 x 11 cm</p>
+        <br><br><h1 class="abt1">INR 10,298</h1>
+        <p class="abt">incl. 19% VAT excl. shipping costs</p>
+        <button class="btn btn-dark btn">Out of stock</button>
+        <br><p class="abt">PRODUCT ID:6852</p>
+        <p class="abt">SKU: 505173630<p>
+        <p class="abt">CATEGORY: BAGS</p>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+    <script src="zoomsl.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+    $(function(){
+
+      $(".example").imagezoomsl();
+
+    });
+    </script>  </body>
+  </html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<head>
+  <title>Art Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:dark">
+    <img src="7.jpg" width="80" height="80"alt="">
+    <a class="navbar-brand conn" href="#">Digital Painting</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="parent.location='index.html'">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#"onclick="parent.location='about.html'">About Us </a>
+            <a class="dropdown-item" href="#" onclick="parent.location='events.html'">Events</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Gallery</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" onclick="parent.location='Gallery.html'">Colourful </a>
+            <a class="dropdown-item" href="#" onclick="parent.location='collection.html'">Collection</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Market Place</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" onclick="parent.location='woodenArts.html'">Wooden Arts</a>
+            <a class="dropdown-item" href="#" onclick="parent.location='bags.html'">Bags</a>
+            <a class="dropdown-item" href="#" onclick="parent.location='Paintings.html'">Paintings</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="parent.location='contact.html'">Contact</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Sign IN
+      </button>
+      
+      &nbsp;&nbsp;&nbsp;<a href="#collapse1" class="login" data-toggle="collapse" data-placement="bottom"><img src="shop.png" width="40"></a><span class="badge badge-light">1</span>
+      <div class="modal fade formcol" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-center" id="exampleModalLabel">Sign In Here</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body formcol">
+              <div class="conatiner-fluid">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-sm-6 col-md-6">
+                     <form class="formconn formcol" action="insert.php" method="Post">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email"  class="form-control" name="email"  placeholder="Enter your Email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" name="password"  placeholder="password" required>
+                      </div>
+                      <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-block" name="submit"value="submit">Submit</button>
+                    </form>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <h1 class="abt">&nbsp;&nbsp;&nbsp;&nbsp;Checkout</h1>
+  <h2 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shipping Address</h2>
+  <br><br><br>
+  <div class="conatiner">
+    <div class="row">
+      <div class="col-lg-5">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+          Add a Shipping address
+        </button>
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content formcol">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Shipping Address</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+               <form action="insert1.php" method="Post">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="First_Name" class="form-group form-control" placeholder="First name" required>
+                  </div>
+                  <div class="col">
+                    <input type="text" name="Last_Name" class="form-group form-control" placeholder="Last name"required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" name="Address" class="form-control"  placeholder="1234 Main St" required>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Address 2</label>
+                  <input type="text" name="Address2" class="form-control" placeholder="Apartment, studio, or floor"required>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" name="City" class="form-control" id="inputCity" value="" required>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" name="State" class="form-control" required>
+                      <option selected>Maharashtra</option>
+                      <option selected>Karnataka</option>
+                      <option selected>Tamil Nadu</option>
+
+                      <option selected>Andhra Pradesh</option>
+
+                      <option selected>Uttra Pradesh</option>
+
+                      <option selected>Telangana</option>
+
+                      <option selected>Punjab</option>
+
+                      <option selected>Jammu & Kashmir</option>
+
+                      <option selected>Delhi</option>
+
+                      <option selected>Kerla</option>
+
+                      <option selected>Goa</option>
+                      <option selected>Rajashthan</option>
+                      <option selected>Gujarat</option>
+                      <option selected>Banglore</option>
+                      <option selected>Kolkata</option>
+                      <option selected>Manipal</option>
+                      <option selected>Madhya Pradesh</option>
+                      
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" name="Zip" class="form-control" placeholder="Zip" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPhone"></label>
+                  <input type="number" name="PhoneNumber" class="form-control"  placeholder="Phone Number" required>
+                </div>
+
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-white btn-block" data-dismiss="modal">Cancel</button>
+                  <button  type="submit" name="submit" class="btn btn-success btn-block">Save</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <br><br><br><br><br>
+      <h2 class="abt">&nbsp;&nbsp;&nbsp;&nbsp;Payment Method</h2>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="credit.jpg" alt="" class="" width="60">&nbsp;&nbsp;&nbsp;
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
+        Add a credit card
+      </button>
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content formcol">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Add a payment method</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="insert2.php" method="Post">
+                <div class="form-row"action="Save">
+                  <div class="col-md-12 mb-3">
+                    <label for="validationDefault01"></label>
+                    <input type="text" name="CardName" class="form-control" placeholder="Name on Card"required>
+                  </div>
+
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12 mb-3">
+                    <label for="validationDefault02"></label>
+                    <input type="text" name="CardNumber" class="form-control" placeholder="Card Number"  required>
+                  </div>
+
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12 mb-3">
+                    <label for="validationDefault03"></label>
+                    <input type="Number" name="SecurityCode" class="form-control"  placeholder="Security Code" required>
+                  </div>
+
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                    I agree terms and conditions</label>
+
+                  </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-white btn-block" data-dismiss="modal">Cancel</button>
+                <button type="submit" name="submit" class="btn btn-success btn-block">Submit</button>
+
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-success btn-block" type="submit" onclick="parent.location='billinginfo7.html'">Proceed to Order to Review</button>
+
+    </div>
+    <br>
+    <br><br>
+
+    <div class="col-sm-1">
+
+    </div>
+
+    <div class="conatiner">
+      <div class="cad card" style="width: 28rem;">
+
+        <div class="card-body">
+          <div class="col-lg-14">
+            <h1 class="text-center abt">Your&nbsp;Order</h1>
+            <br>
+
+            <div class="row">
+              <div class="col-lg-8">
+                <h2 class="c2">Product</h2>
+              </div>
+              <div class="col-lg-4">
+                <h3 class="c2">Total</h3>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <h4 class="c2">Amlan Dutta</h4>
+              </div>
+              <div class="col-sm-6">
+                <h5 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR&nbsp;40,000</h5>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <h4 class="c2">Cart&nbsp;Subtotal</h4>
+              </div>
+              <div class="col-sm-6">
+                <h5 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR&nbsp;40,000</h5>
+
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <h4 class="c2">Order&nbsp;Total</h4>
+              </div>
+              <div class="col-sm-6">
+                <h5 class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INR&nbsp;40,000</h5>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+    function isChecked(checkbox, sub1) {
+      document.getElementById(sub1).disabled = !checkbox.checked;
+    }
+
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
